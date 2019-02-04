@@ -43,6 +43,6 @@ You should see a test notification after you pressed the send button.
 
 ## General Observations
 
-- You don't *need* to use a push gateway, if you don't want notifications. Adding certificates and checking to *not* user a gateway is enough
+- The use of a push gateway is only required if you want to get system notifications about new messages. When not using a push gateway people will still recieve email notifications about new message and will see them once the Rocket Chat app has been opened.
 - For iOS, you need to [convert](https://github.com/raix/push/blob/master/docs/IOS.md) both the .cer and .p12 files into .pem files
 - Once everything is configured on the admin settings, the server must be restarted
